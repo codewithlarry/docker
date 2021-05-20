@@ -32,7 +32,7 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 ```
 wsl --set-default-version 2
 ```
-5. 访问网址https://aka.ms/wslstore打开Microsoft Store ，然后选择Ubuntu
+5. 访问网址 https://aka.ms/wslstore 打开Microsoft Store ，然后选择Ubuntu
 6. 点击install按钮，安装Ubuntu。安装完成后设置Ubuntu的用户名和密码
 ### 安装docker desktop
 1. 从 https://www.docker.com/products/docker-desktop 下载windows版docker-desktop
