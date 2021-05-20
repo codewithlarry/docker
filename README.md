@@ -18,14 +18,20 @@ https://www.microsoft.com/en-us/software-download/windows10
 ### 安装Windows Subsystem Linux 2
 windows升级完成后，安装Windows Subsystem for Linux 2，简称WSL2
 1. 用administrator角色打开windows powershell，运行:
-   `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
-1. 在powershell打开支持虚拟机功能
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+```
+   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
+2. 在powershell打开支持虚拟机功能
+```
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
 3. 下载Linux kernel升级包
 https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 下载完成后，双击运行安装
 4. 回到powershell，输入以下命令设置wsl2为默认版本
-`wsl --set-default-version 2`
+```
+wsl --set-default-version 2
+```
 5. 访问网址https://aka.ms/wslstore打开Microsoft Store ，然后选择Ubuntu
 6. 点击install按钮，安装Ubuntu。安装完成后设置Ubuntu的用户名和密码
 ### 安装docker desktop
@@ -37,7 +43,9 @@ https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi
 1.复制docker-compose.yml至一个空目录
 2.打开cmd或terminal窗口,cd至docer-compose.yml所在目录
 3.运行命令
-`docker-compose up`
+```
+docker-compose up
+```
 4.大约2-3分钟，4个数据库可以安装完成。具体时间取决于网络速度和主机速度。
 
 # Youtue教程地址
