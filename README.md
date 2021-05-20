@@ -46,7 +46,7 @@ docker-compose up
 https://youtu.be/An01OT34O_U
 
 # 参考链接
-https://www.microsoft.com/en-us/software-download/windows10
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
-https://docs.docker.com/docker-for-windows/install/
-https://andrewlock.net/installing-docker-desktop-for-windows/
+* https://www.microsoft.com/en-us/software-download/windows10
+* https://docs.microsoft.com/en-us/windows/wsl/install-win10
+* https://docs.docker.com/docker-for-windows/install/
+* https://andrewlock.net/installing-docker-desktop-for-windows/
