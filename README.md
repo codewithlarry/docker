@@ -40,13 +40,13 @@ wsl --set-default-version 2
 3. Docker在启动过程中左下角图标为橙色，当图标变成绿色时，可以确认docker在Windows上成功安装。
 
 ## 一键安装mysql postgres mongo redis 
-1.复制docker-compose.yml至一个空目录
-2.打开cmd或terminal窗口,cd至docer-compose.yml所在目录
-3.运行命令
+1. 复制docker-compose.yml至一个空目录
+2. 打开cmd或terminal窗口,cd至docer-compose.yml所在目录
+3. 运行命令
 ```
 docker-compose up
 ```
-4.大约2-3分钟，4个数据库可以安装完成。具体时间取决于网络速度和主机速度。
+4. 大约2-3分钟，4个数据库可以安装完成。具体时间取决于网络速度和主机速度。
 
 # Youtue教程地址
 https://youtu.be/An01OT34O_U
